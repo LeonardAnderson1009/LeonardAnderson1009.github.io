@@ -1,13 +1,13 @@
-body
-{
-    background-color: black;
+h1{
+    padding-left: 10px;
+    text-align: center;
+    font-weight: bold;
 }
-
-.row {
-    background-color: darkblue;
-    color: white;
-}
-
-.row > div {
-    border: 12px solid green;
+button{
+    float: right;
+    border-radius: 5px;
+    border: 3px solid green;
+    background-color: burlywood;
+    font-weight: bold;
+    font-size: medium;
 }
