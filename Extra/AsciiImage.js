@@ -35,7 +35,7 @@ function imageDataToAscii(imageData) {
             const b = data[offset + 2];
             const gray = (r + g + b) / 3;
             const charIndex = Math.floor((gray / 255) * (grayScaleChars.length - 1));
-            asciiStr += grayScaleChars[charIndex];
+            asciiStr += grayScaleChars[charIndex] + " ";
         }
         asciiStr += '\n';
     }
